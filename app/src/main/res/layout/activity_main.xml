@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/background_light"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textSize="30dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="80dp"/>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+   android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/username"
+        android:importantForAutofill="no"
+        android:background="@android:color/background_light"
+        android:inputType="textEmailAddress"
+         android:hint="Email" />
+
+    <EditText
+        android:layout_height="50dp"
+
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:background="@android:color/background_light"
+        android:hint="Password"
+        />
+
+    <Button
+        android:background="#00ffe0"
+        android:layout_height="40dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/login_btn"
+        android:hint="Login"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtsignup"
+            android:layout_gravity="center"
+            android:text="New User Click Here To Register"/>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="64dp"
+            android:visibility="gone"
+
+            />
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

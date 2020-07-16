@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8576917299",
+    "firebase_url": "https://emailauth-82f12.firebaseio.com",
+    "project_id": "emailauth-82f12",
+    "storage_bucket": "emailauth-82f12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8576917299:android:72f8976f0984f7b51ea846",
+        "android_client_info": {
+          "package_name": "com.example.emailauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8576917299-kd6utu6ibifvte0d1clsdam41reuqk5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emailauth",
+            "certificate_hash": "8517b0c3fbdd8dafcc240b3e8637531267f44edd"
+          }
+        },
+        {
+          "client_id": "8576917299-29a6s4ke37tmfou35qd8hteep09abalu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvn0h7lEeq-1iSWT2WR3nPrmaJD1Cfdj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8576917299-29a6s4ke37tmfou35qd8hteep09abalu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
